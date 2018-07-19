@@ -1,0 +1,26 @@
+body {
+  /* font-family: helvetica, sans-serif, arial; */
+  font-size: 14pt;
+  color: white;
+  background-image: url("bg-codeone.jpg")
+}
+#terminal-container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 2px;
+}
+#terminal-container .terminal {
+  height: 100%;
+  background-color: white;
+  color: gray;
+  padding: 2px;
+}
+#terminal-container .terminal:focus .terminal-cursor {
+  background-color: #fafafa;
+}
+#connectBtn{
+}
+#status {
+  float: right;
+}

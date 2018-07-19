@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CodeMaker Terminal</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="node_modules/xterm/dist/xterm.css" />
+    <script src="node_modules/xterm/dist/xterm.js"></script>
+    <script src="node_modules/xterm/dist/addons/fit/fit.js"></script>
+  </head>
+  <body> 
+    <button id="connectBtn">Connect</button>
+    <span id="status"></span>
+    <div id="terminal-container"></div>
+  </body>
+  <script>
+    require('./renderer.js')
+  </script>
+</html>
